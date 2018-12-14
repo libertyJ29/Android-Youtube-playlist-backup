@@ -1,2 +1,2 @@
-# Android_youtube_playlist_backup
-Youtube playlist backup and restore
+# Android-Youtube-playlist-backup
+Backup a Youtube playlist to local storage, and restore a playlist to your logged in Youtube account
