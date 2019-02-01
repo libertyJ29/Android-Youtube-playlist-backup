@@ -746,7 +746,7 @@ public class MainActivity extends Activity
             counter = 0;  // Count number of playlist entries processed
 
             getSpecifiedPlaylistMetaData();
-            successMessage.add("Channel Title : "+channelTitle+"\n");
+            successMessage.add("Channel : "+channelTitle+"\n");
             successMessage.add("Playlist Title : "+playlistTitle+"\n");
 
             try {
@@ -765,6 +765,8 @@ public class MainActivity extends Activity
                 }
 
                 storedPlaylist = new ArrayList<>();
+
+                successMessage.add("The following Playlist items have been backed up...\n");
 
                 do {
                     playlistItemsListByPlaylistIdRequest.setPageToken(nextToken);
